@@ -1,0 +1,46 @@
+.name {
+    font-family: 'Press Start 2P';
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    border: transparent;
+}
+
+.reaction-bubble {
+    display: inline-block;
+    background-color: var(--white);
+    min-width: 100px;
+    max-width: 200px;
+    /* height: 60px; */
+    border-radius: 20px;
+    position: relative;
+    margin-top: 20px;
+    font-family: 'Press start 2P', 'inherit';
+    padding: 10px;
+}
+
+.reaction-bubble:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 15px solid transparent;
+	border-bottom-color: var(--white);
+	border-top: 0;
+	margin-left: -15px;
+	margin-top: -15px;
+}
+
+.reaction-button {
+    border-color: var(--white);
+    /* border: 0px; */
+    margin: 5px;
+}

@@ -1,0 +1,70 @@
+.room-title {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.me {
+    grid-area: me;
+    width: 200px;
+}
+
+.opponent {
+    grid-area: opponent;
+    width: 200px;
+}
+
+/* v1 */
+/* .status {
+    grid-area: status;
+    width: 300px;
+    overflow-wrap: break-word;
+    padding: 20px;
+    background-color: aqua;
+} */
+
+/* v2 */
+.status {
+    grid-area: status;
+    width: 600px;
+    height: 210px;
+    overflow-wrap: break-word;
+    padding: 20px;
+}
+
+.piano {
+    grid-area: piano;
+    /* align-content: center; */
+    /* justify-content: center; */
+    width: 600px;
+    padding: 0;
+}
+
+/* v1 */
+/* .player-container {
+    display: grid;
+    grid-template-areas: 
+        'me status status opponent'
+        'piano piano piano piano';
+    gap: 10px;
+    padding: 10px;
+    align-content: center;
+    justify-content: center;
+} */
+
+/* v2 */
+.player-container {
+    display: grid;
+    grid-template-areas: 
+        'me status status status opponent'
+        'me piano piano piano opponent'
+        'me piano piano piano opponent';
+    /* padding: 10px; */
+    align-content: center;
+    justify-content: center;
+}
+
+.player-container > div {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}

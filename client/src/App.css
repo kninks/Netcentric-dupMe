@@ -1,0 +1,58 @@
+/* Header: Press Start 2P */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* Body : Prompt */
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap');
+
+#root {
+  box-sizing: border-box;
+  width: 100%;
+  /* overflow-y: auto; */
+  margin: 2rem;
+  text-align: center;
+  color: var(--black);
+  background-color: var(--beige);
+  font-family: 'Prompt', sans-serif;
+  --black: #000000;
+  --white: #ffffff;
+  --brick: #D16532;
+  --beige: #F4EFE5;
+  --yellow: #EEDBB5;
+
+  /* display: flex;
+  justify-content: center;
+  align-content: center; */
+}
+
+h1, h2, h3 {
+  font-family: 'Press Start 2P', 'Prompt', sans-serif;
+  line-height: 1.5em;
+  /* background-color:aqua; */
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: auto;
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 6px;
+  outline: 0;
+  background-color: white;
+  padding: 0 8px;
+  font-size: 1em;
+  font-family: inherit;
+  color: black;
+}
+
+input:focus {
+  border: 2px solid #D16532;
+}
+
+.tab {
+  display: block;
+  background-color: var(--brick);
+  color: var(--white);
+  font-family: 'Press Start 2P', 'Prompt',sans-serif;
+  line-height: 1.5em;
+  position: static;
+}

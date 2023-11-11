@@ -1,0 +1,22 @@
+.room-container {
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+
+.room-container > div {
+    background-color: var(--brick);
+    color: var(--white);
+    border-radius: 10px;
+    border: 2px solid var(--brick);
+    padding: 5px 20px;
+    margin: 5px;
+    text-align: center;
+    line-height: 1.2em;
+    cursor: pointer;
+}
+
+.room-container > div:hover {
+    background-color: var(--white);
+    color: var(--brick);
+}

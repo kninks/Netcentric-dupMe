@@ -1,0 +1,38 @@
+.button-ready-clicked {
+    color: var(--white);
+    background-color: green;
+    border-color: green;
+}
+
+.button-ready-clicked:hover {
+    color: var(--white);
+    background-color: green;
+    border-color: green;
+}
+
+.button-disabled {
+    color: gray;
+    border-color: gray;
+}
+
+.button-disabled:hover, active {
+    color: gray;
+    border-color: gray;
+    background-color: white;
+}
+
+.button-clicked {
+    color: var(--white);
+    background-color: var(--brick);
+    border-color: var(--brick);
+}
+
+.button-clicked:hover {
+    color: var(--white);
+    background-color: var(--brick);
+    border-color: var(--brick);
+} 
+
+.not-playing-not-aftermatch > div {
+    margin-top: 10px;
+}

@@ -1,0 +1,79 @@
+.piano-container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.piano-container > div {
+    background-color: white;
+    height: 145px;
+    width: 60px;
+    border: 3px solid var(--beige);
+
+    position: relative;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.piano-container > div:active {
+    background-color: var(--brick);
+    color: var(--white);
+}
+
+.countdown {
+    height: 1.5em;
+    margin: 0;
+}
+
+.display {
+    height: 80px;
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    /* width: 600px;
+    overflow-x: hidden;
+    overflow-y: scroll; */
+}
+
+.display-title {
+    font-family: 'Press Start 2P', 'inherit';
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+.display-note {
+    display: inline;
+    margin: 0 5px 10px;
+}
+
+.sound-container {
+    margin-bottom: 10px;
+}
+
+.sound-title {
+    display: inline-block;
+    font-family: 'Press Start 2P', 'inherit';
+    font-size: 1em;
+    line-height: 2em;
+}
+
+.button-clicked {
+    color: var(--white);
+    background-color: var(--brick);
+    border-color: var(--brick);
+}
+
+.button-clicked:hover {
+    color: var(--white);
+    background-color: var(--brick);
+    border-color: var(--brick);
+}

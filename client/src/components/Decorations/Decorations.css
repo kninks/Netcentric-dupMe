@@ -1,0 +1,27 @@
+.rainbow {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    height: 300px;
+}
+
+.joy {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    height: 200px;
+}
+
+.sparkle {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 200px;
+}
+
+.radio {
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    height: 250px;
+}
