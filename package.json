@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "lint": "eslint ."
+  },
   "dependencies": {
     "random-avatar-generator": "^2.0.0",
     "react-router-dom": "^6.18.0"
