@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 import "./App.css";
 
 import Room from "./pages/Room/Room";
@@ -10,18 +10,20 @@ import HowToPlay from "./pages/HowToPlay/HowToPlay";
 
 function App() {
     return (
-        <div className="App">
-            <div className="tab">DupMe</div>
-            <div className="page">
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/room" element={<Room />} />
-                <Route path="/how-to-play" element={<HowToPlay />} />
-                <Route path="/chat" element={<ChatRoom />} />
-                <Route path="/support-us" element={<SupportUs />} />
-            </Routes>
+        <BrowserRouter>
+            <div className="App">
+                <div className="tab">DupMe</div>
+                <div className="page">
+                    <Routes>
+                        <Route path="/" element={<Home/>}/>
+                        <Route path="/room" element={<Room/>}/>
+                        <Route path="/how-to-play" element={<HowToPlay/>}/>
+                        <Route path="/chat" element={<ChatRoom/>}/>
+                        <Route path="/support-us" element={<SupportUs/>}/>
+                    </Routes>
+                </div>
             </div>
-        </div>
+        </BrowserRouter>
     );
 }
 
