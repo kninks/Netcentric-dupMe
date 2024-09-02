@@ -21,15 +21,18 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: ./client
 
 #      - name: Run ESLint
 #        run: npm run lint
 
       - name: Run tests
         run: npm test
+        working-directory: ./client
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v2
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          files: ./coverage/*.json
+          files: ./client/coverage/*.json
+

@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="544747d3-7bcf-4ecf-956b-918d1aef3d44" name="Changes" comment="feat: set up ci-cd .yml files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="544747d3-7bcf-4ecf-956b-918d1aef3d44" name="Changes" comment="feat: set up lint &amp; disable lint for now" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +134,7 @@
       <updated>1725236001625</updated>
       <workItem from="1725236002869" duration="920000" />
       <workItem from="1725236949359" duration="306000" />
-      <workItem from="1725237346517" duration="12364000" />
+      <workItem from="1725237346517" duration="12686000" />
     </task>
     <task id="LOCAL-00001" summary="feat: setup libs and dummy tests">
       <option name="closed" value="true" />
@@ -165,7 +160,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725308582728</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: install lint">
+      <option name="closed" value="true" />
+      <created>1725309704526</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725309704526</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: set up lint &amp; disable lint for now">
+      <option name="closed" value="true" />
+      <created>1725309940246</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725309940246</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +186,9 @@
     <MESSAGE value="feat: setup libs and dummy tests" />
     <MESSAGE value="feat: setup libs and dummy tests2" />
     <MESSAGE value="feat: set up ci-cd .yml files" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: set up ci-cd .yml files" />
+    <MESSAGE value="feat: install lint" />
+    <MESSAGE value="feat: set up lint &amp; disable lint for now" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: set up lint &amp; disable lint for now" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
