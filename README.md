@@ -1,4 +1,18 @@
 # Netcentric-dupMe
 
-client: cd client then npm run dev
-server: cd server then npm start
+client: 
+
+  cd client 
+  npm run dev
+
+server: 
+  cd server 
+  npm start
+
+unit tests (for client only):
+  cd client
+  npm run test:cov
+
+
+
+
