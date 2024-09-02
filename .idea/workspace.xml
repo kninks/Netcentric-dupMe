@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="544747d3-7bcf-4ecf-956b-918d1aef3d44" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/babel.config.cjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/setup-test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/__test__/pages/Home/Home.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/mocks/fileMock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Home/Home.tsx" afterDir="false" />
+    <list default="true" id="544747d3-7bcf-4ecf-956b-918d1aef3d44" name="Changes" comment="feat: setup libs and dummy tests2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/__test__/pages/Home/Home.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/__test__/pages/Home/Home.test.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -59,7 +57,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "setup-tests",
     "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -136,12 +134,34 @@
       <updated>1725236001625</updated>
       <workItem from="1725236002869" duration="920000" />
       <workItem from="1725236949359" duration="306000" />
-      <workItem from="1725237346517" duration="8788000" />
+      <workItem from="1725237346517" duration="10936000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: setup libs and dummy tests">
+      <option name="closed" value="true" />
+      <created>1725306284012</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725306284012</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: setup libs and dummy tests2">
+      <option name="closed" value="true" />
+      <created>1725306297695</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725306297695</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: setup libs and dummy tests" />
+    <MESSAGE value="feat: setup libs and dummy tests2" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: setup libs and dummy tests2" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
