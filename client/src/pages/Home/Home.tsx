@@ -121,7 +121,7 @@ function Home() {
           <SubmitUser />
           <p></p>
           <Link to="/how-to-play">
-            <button>How to Play</button>
+            <button data-testid="how-to-play-button">How to Play</button>
           </Link>
           <p></p>
           <Link to="/support-us">
