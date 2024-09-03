@@ -23,21 +23,25 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: ./client
 
       - name: Build application
         run: npm run build
+        working-directory: ./client
 
       - name: Set up Terraform
         uses: hashicorp/setup-terraform@v1
 
       - name: Terraform Init
         run: terraform init
+        working-directory: ./infra
 
       - name: Terraform Plan
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         run: terraform plan
+        working-directory: ./infra
 
       - name: Terraform Apply
         if: github.ref == 'refs/heads/main'
@@ -46,7 +50,9 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         run: terraform apply -auto-approve
+        working-directory: ./infra
 
+# Uncomment the following lines if you want to deploy to S3
 #      - name: Deploy to S3
 #        uses: jakejarvis/s3-sync-action@v0.5.1
 #        with:
@@ -56,38 +62,4 @@ jobs:
 #          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
 #          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 #          AWS_REGION: 'us-east-1'
-#          SOURCE_DIR: 'build'
-
-#name: Terraform
-#
-#on:
-#  push:
-#    branches:
-#      - main
-#
-#jobs:
-#  terraform:
-#    runs-on: ubuntu-latest
-#
-#    steps:
-#      - name: Checkout code
-#        uses: actions/checkout@v2
-#
-#      - name: Set up Terraform
-#        uses: hashicorp/setup-terraform@v1
-#
-#      - name: Terraform Init
-#        run: terraform init
-#
-#      - name: Terraform Plan
-#        env:
-#          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-#          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-#        run: terraform plan
-#
-#      - name: Terraform Apply
-#        if: github.ref == 'refs/heads/main'
-#        env:
-#          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-#          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-#        run: terraform apply -auto-approve
+#          SOURCE_DIR: 'client/build'
